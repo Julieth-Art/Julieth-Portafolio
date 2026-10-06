@@ -1,0 +1,1 @@
+import{t as e}from"./PageFrame-B7usvZqt.js";import{c as t,m as n}from"./index-BU3meSbE.js";import{n as r,t as i}from"./SectionHero-DCP9PLVV.js";var a=n();function o(){let n=t.animacion;return(0,a.jsxs)(e,{children:[(0,a.jsx)(i,{kicker:n.kicker,title:n.title,desc:n.desc}),(0,a.jsx)(`div`,{className:`mt-10`,children:(0,a.jsx)(r,{section:`animacion`})})]})}export{o as component};

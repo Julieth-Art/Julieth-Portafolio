@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Julieth — Animación 3D & Arte Digital",
+      "hasCanvas": false,
+      "bodyTextLen": 955,
+      "bodyTextHash": "7426a8a5610ca428079ffde208dca5dc203e8541c1d7cc3932e526e42523f899",
+      "bodyTextPrefix": "Saltar al contenido Julieth Inicio Acerca de mi Modeling 3D Anim",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Julieth — Animación 3D & Arte Digital",
+      "hasCanvas": false,
+      "bodyTextLen": 892,
+      "bodyTextHash": "b1351dfda9072efdc6fd85d6b6d50e291c9d344c948b156c4ceb0da73402a20d",
+      "bodyTextPrefix": "Saltar al contenido Julieth Porta Art 3D folio Acerca de mi Mode",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}
