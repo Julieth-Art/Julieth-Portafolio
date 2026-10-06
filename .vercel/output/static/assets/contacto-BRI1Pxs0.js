@@ -1,1 +1,0 @@
-import{n as e}from"./index-BJ3y9grn.js";import{ContactContent as t}from"@/components/portfolio/ContactContent";var n=e();function r(){return(0,n.jsx)(`section`,{className:`pt-16`,children:(0,n.jsx)(t,{})})}export{r as component};
