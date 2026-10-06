@@ -14,7 +14,6 @@
  *   This must be a middleware transforming `next()`: h3 discards the `response`
  *   runtime hook's return value, and `render:html` does not exist in Nitro v3.
  */
-import installPageTemplate from "../../scripts/install-page.html";
 import { grokOgIdentity } from "virtual:grok-og-identity";
 import {
   acceptsHtml,
@@ -83,18 +82,7 @@ export default async function grokPwaMiddleware(
     isInstallQuery(urlWithQuery) &&
     isDocumentPath(path) &&
     acceptsHtml(event.req.headers.get("accept"))
-  ) {
-    const html = renderInstallPageHtml(installPageTemplate, {
-      host: requestHost(event),
-      url: urlWithQuery,
-    });
-    return new Response(html, {
-      headers: {
-        "content-type": "text/html; charset=utf-8",
-        "cache-control": "no-cache",
-      },
-    });
-  }
+  )
 
   if (!isDocumentPath(path)) return next();
 
