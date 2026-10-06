@@ -8,7 +8,7 @@ import {
 import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import { SiteShell } from "@/components/site/SiteShell";
-import { AppErrorComponent } from "@/lib/error-component";
+import { AppErrorComponent } from "../lib/error-component";
 import appCss from "../styles.css?url";
 
 const APP_NAME = "Julieth — Animación 3D & Arte Digital";
